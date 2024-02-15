@@ -5,8 +5,8 @@ This project implements sentiment analysis using a Long Short-Term Memory (LSTM)
 The IMDB movie review dataset contains 25,000 preprocessed movie reviews, with each review labeled as either positive or negative. Each review is represented as a sequence of integers, where each integer corresponds to a word in the review. The dataset has already been preprocessed, and each word is encoded by an integer representing its frequency in the dataset.
 
 ## Preprocessing
-    - The dataset is loaded using Keras and split into training and testing sets.
-    - Each review is padded or truncated to a fixed length of 250 words using Keras' pad_sequences function to ensure uniform input size for the neural network.
+- The dataset is loaded using Keras and split into training and testing sets.
+- Each review is padded or truncated to a fixed length of 250 words using Keras' pad_sequences function to ensure uniform input size for the neural network.
 
 ## Model Architecture
 The neural network architecture consists of:
